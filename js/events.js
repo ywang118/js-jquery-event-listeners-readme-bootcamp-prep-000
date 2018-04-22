@@ -6,8 +6,8 @@ function getIt() {
 }
 
 function pressIt(){
-  $("img").addClass('load').on('load',function(){
-    
+  $("img").on('load',function(){
+    $(this).addClass("tasty");
   })
   
 }
