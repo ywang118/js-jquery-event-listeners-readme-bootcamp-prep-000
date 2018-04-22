@@ -5,12 +5,14 @@ function getIt() {
   })
 }
 
-function pressIt(){
+function frameIt(){
   $("img").on('load',function(){
     $(this).addClass("tasty");
   })
 }
 
-function 
+function pressIt(){
+  
+}
 $(document).ready(function(){
 });
