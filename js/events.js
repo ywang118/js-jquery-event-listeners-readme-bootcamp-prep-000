@@ -6,6 +6,9 @@ function getIt() {
 }
 
 function pressIt(){
+  $("img").on('load',function(){
+    
+  })
   
 }
 
