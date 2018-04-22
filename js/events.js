@@ -22,7 +22,9 @@ function pressIt(){
     <input id="typing" type="text">
     <input type="submit">
 function submitIt(){
-  $()
+  $("imput").on("submit",function(){
+    alert('')
+  })
 }
 $(document).ready(function(){
 });
