@@ -18,13 +18,12 @@ function pressIt(){
     }
   })
 }
-<form>
-    <input id="typing" type="text">
-    <input type="submit">
+
 function submitIt(){
-  $("imput").on("submit",function(){
-    alert('')
+  $("input").on("submit",function(){
+    alert('Your form is going to be submitted now.')
   })
 }
+
 $(document).ready(function(){
 });
