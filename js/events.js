@@ -18,9 +18,11 @@ function pressIt(){
     }
   })
 }
-
+<form>
+    <input id="typing" type="text">
+    <input type="submit">
 function submitIt(){
-  
+  $()
 }
 $(document).ready(function(){
 });
