@@ -6,7 +6,7 @@ function getIt() {
 }
 
 function pressIt(){
-  $("img").on('load',function(){
+  $("img").addClass('load').on('load',function(){
     
   })
   
