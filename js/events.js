@@ -9,8 +9,8 @@ function pressIt(){
   $("img").on('load',function(){
     $(this).addClass("tasty");
   })
-  
 }
 
+function 
 $(document).ready(function(){
 });
